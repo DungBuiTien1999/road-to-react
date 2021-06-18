@@ -1,0 +1,82 @@
+html {
+  font-size: 10px;
+}
+
+.container {
+  height: 100vh;
+  padding: 2rem;
+
+  background: #83a4d4;
+  background: linear-gradient(to left, #b6fbff, #83a4d4);
+
+  color: #171212;
+  font-size: 1.6rem;
+}
+
+.headlinePrimary {
+  font-size: 8.4rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.5rem;
+}
+
+.item > span {
+  padding: 0 0.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.item > span > i {
+  color: inherit;
+}
+
+.button {
+  background: transparent;
+  border: 1px solid #171212;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+}
+
+.button:hover > svg > g {
+  /* background: #171212;
+  color: #fff; */
+  fill: #fff;
+  stroke: #fff;
+}
+
+.buttonSmall {
+  padding: 0.5rem;
+}
+
+.buttonLarge {
+  padding: 1rem;
+}
+
+.searchForm {
+  padding: 1rem 0 2rem 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.label {
+  border-bottom: 1px solid #171212;
+  border-top: 1px solid #171212;
+  padding-left: 0.5rem;
+  font-size: 2.4rem;
+}
+
+.input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #171212;
+  background-color: transparent;
+  font-size: 2.4rem;
+}
